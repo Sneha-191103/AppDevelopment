@@ -1,0 +1,33 @@
+
+.prof{
+    display: flex;
+    justify-content:flex-end;
+    flex-direction: row;
+    font-size: 25px;
+    align-items: end;
+   
+}
+.name{
+    padding: 5px 5px 5px 5px;
+}
+.name:hover{
+    cursor: pointer;
+    
+   
+}
+.navbar {
+    padding: 30px 30px 30px 30px;
+    overflow: hidden;
+    background-color: #f67441;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    color: aliceblue;
+    flex-direction: row;
+    position: fixed; 
+    top: 0; 
+    font-size: 25px;
+   height: 100%; 
+}
+ 
+
