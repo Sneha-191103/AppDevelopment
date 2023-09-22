@@ -1,0 +1,33 @@
+.dash{
+    display: flex;
+   
+    justify-content: space-around;
+    flex-direction: row;
+}
+.box{
+    width: 200px;
+    height: 100px;
+    padding: 20px 20px 20px 20px;
+   box-shadow: 1px 1px 1px 1px rgb(160, 160, 160);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+   
+}
+
+.head{
+font-size: 20px;
+
+}
+.ico{
+    font-size: 25px;
+}
+.bar{
+   display: flex;
+   
+   justify-content: center;
+   align-items: center;
+   
+   
+}
+

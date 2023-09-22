@@ -1,0 +1,27 @@
+.hbutton {
+  display: flex;
+  align-items: center;
+    position: relative;
+    padding: 15px 45px;
+    background: #f87c23;
+    font-size: 17px;
+    font-weight: 500;
+    color: #181818;
+    border: 1px solid #ff7d20;
+    border-radius: 8px;
+    filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, .2));
+  }
+  
+  .hbutton:hover {
+    border: 1px solid #f79854;
+    background: linear-gradient(85deg, #f78d41, #ff9142, #fc8530, #fa8633, #ff8d3b);
+    animation: wind 2s ease-in-out infinite;
+  }
+  
+ 
+  .home{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+  }

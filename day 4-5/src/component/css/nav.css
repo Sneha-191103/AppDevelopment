@@ -1,0 +1,30 @@
+.navbar{
+    margin-top: 0px;
+    width:100%;
+        display: flex;
+   
+  align-items: center;
+  justify-content:flex-end;
+    flex-direction: row;
+    background-color:#242424;
+    height:50px;
+    color: rgb(251, 250, 250);
+   box-shadow: 1px 1px 3px 1px rgba(204, 202, 202, 0.411);
+   
+}
+.prof:hover{
+    background-color: orange;
+
+}
+.prof{
+    padding:8px 25px 8px 25px;
+}
+.name{
+    font-size:30px;
+}
+.im{
+    font-size: 20px;
+    display: flex;
+    justify-content:stretch;
+    align-items: center;
+}
